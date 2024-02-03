@@ -1,0 +1,25 @@
+#File Index.js
+
+const fs = require('fs');
+
+function readFileContent(filePath) {
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error(`Error reading file: ${err.message}`);
+    } else {
+      console.log('File Content:');
+      console.log(data);
+    }
+  });
+}
+
+// Test Cases
+readFileContent('file1.txt');
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Add a New file name it as (file1.txt)
+then paste the content given below:
+
+This is the content of the file.
+Hello, Node.js!
+Naveen
+
