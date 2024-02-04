@@ -1,6 +1,6 @@
 #File Index.js
 
-const { exec } = require('child_process');
+const { exec } = require('child_process'); 
 
 function executeCommand(command) {
   exec(command, (error, stdout, stderr) => {
@@ -25,4 +25,4 @@ executeCommand('echo "Hello, Node.js! @Naveen"');
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#create new file name as file.txt
+#create new file name as file.txt then run it
