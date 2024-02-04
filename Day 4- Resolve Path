@@ -1,0 +1,16 @@
+# Create a File Index.js
+
+const path = require('path');
+
+function resolvePath(relativePath) {
+  const absolutePath = path.resolve(__dirname, relativePath);
+  console.log('Resolved Path:', absolutePath);
+}
+
+// Test Cases
+resolvePath('../project/folder/file.txt');
+resolvePath('nonexistent-folder/btecky/file1.txt');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#Sign to create new file and edit the name using pencil icon with  file.txt and also create file1.txt
