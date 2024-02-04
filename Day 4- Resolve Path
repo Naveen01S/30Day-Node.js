@@ -1,6 +1,6 @@
 # Create a File Index.js
 
-const path = require('path');
+const path = require('path'); 
 
 function resolvePath(relativePath) {
   const absolutePath = path.resolve(__dirname, relativePath);
